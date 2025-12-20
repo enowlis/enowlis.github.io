@@ -61,6 +61,8 @@ content:
         title: Chicago Neighborhood Ranking
         link: https://github.com/enowlis/enowlis.github.io/blob/main/projects/GIS%20Methodology%20Paper.pdf
         link_text: Methodology
+        link: WIP
+        link_text: Interactive Tool
         additional_links:
           - title:  Interactive Tool
             icon: 
@@ -75,7 +77,7 @@ content:
       - layout: top-middle
         title: 2025 Scopeathon
         link: https://github.com/enowlis/enowlis.github.io/raw/refs/heads/main/projects/%E2%AD%90%20Survey%20Database%20(TO%20USE).xlsx
-        link_text: Data Analysis Sheet
+        link_text: Data Analysis Sheet (download)
         additional_links:
           - title:  Survey for Students
             icon: 
