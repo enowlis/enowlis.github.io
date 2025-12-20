@@ -14,7 +14,7 @@ library(DescTools)
 
 ## Data is downloaded from: https://web.archive.org/web/20240725151544/https://datacatalog.cookcountyil.gov/browse?tags=state%27s+attorney+case-level&sortBy=most_accessed
 
-setwd("C:/Users/elies/OneDrive/Documents/School/U Chicago/Mansueto Hackathon")
+setwd([root])
 diversion <- read.csv("Diversion_20251107.csv")
 sentencing <- read.csv("Sentencing_20251107.csv")
 
@@ -28,8 +28,6 @@ head(sentencing)
 summary(sentencing)
 
 ### Question 1: Does when you are referred impact your probability of success ? ###
-### Does is matter if you got bond or not? That might be impactful ###
-### Are there multiple people/cases that I should be dedupping? ###
 
 diversion_edit <- diversion %>% 
   mutate(RECEIVED_DATE=as.Date(RECEIVED_DATE,format = "%Y %b %d %I:%M:%S %p")) %>%
@@ -53,3 +51,4 @@ diversion_edit %>%
   group_by(year(REFERRAL_DATE)) %>%
   ggplot(mapping=aes(y= year(REFERRAL_DATE), fill=GENDER)) +
   geom_bar()
+
