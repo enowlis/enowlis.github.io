@@ -59,19 +59,29 @@ content:
     content:
       - layout: top-middle
         title: Chicago Neighborhood Ranking
-        #link: github.com/sproogen
-        # link_text: Project Website
-        # additional_links:
-        #   - title:  sproogen/modern-resume-theme
+        link: projects/GIS Methodology Paper.pdf
+        link_text: Methodology
+        additional_links:
+          - title:  Interactive Tool
         #     icon: fab fa-github
-        #     url: github.com/sproogen/modern-resume-theme
+            url: WIP
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          I created a tool that allows the user to input the top three factors they care most about when choosing a neighborhood to live in and outputs which three neighborhoods best match these preferences.
+          I created a tool that allows the user to input the top three factors they care most about when choosing a neighborhood to live in and outputs which three neighborhoods best match these preferences. This involved compiling data for each factor in ArcGIS, normalizing the data, and creating an interactive tool in Python.
+        
+        title: 2025 Scopeathon
+        link: projects/⭐ Survey Database (TO USE).xlsx
+        link_text: Data Analysis Sheet
+        additional_links:
+          - title:  Survey for Students
+        #     icon: fab fa-github
+            url: projects/BBW Student Survey (Rodeo and ABC).docx
+        description: | # this will include new lines to allow paragraphs
+          Worked with my client, <mark>Blackstone Bike Works</mark>, to improve how they collect data from students and staff after their in-school bike workshops. This included both developing a new suite of surveys for the various relevant actors and creating a data analysis pipeline. I created a system for them that would update automatically when they received new survey responses and created charts that could be manipulated to look at specific variables or time periods. 
 
   # - title: Experience # Title for the section
   #   layout: list # Type of content section (list/text)
