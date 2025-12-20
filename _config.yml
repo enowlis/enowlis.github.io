@@ -70,16 +70,44 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          I created a tool that allows the user to input the top three factors they care most about when choosing a neighborhood to live in and outputs which three neighborhoods best match these preferences. This involved compiling data for each factor in ArcGIS, normalizing the data, and creating an interactive tool in Python.
+          Created a tool that allows the user to input the top three factors they care most about when choosing a neighborhood to live in and outputs which three neighborhoods best match these preferences. This involved compiling data for each factor in ArcGIS, normalizing the data, and creating an interactive tool in Python.
+      - layout: top-middle
+        title: Wisconsin Solar Project
+        link: https://github.com/enowlis/enowlis.github.io/blob/main/projects/Wisconsin%20Solar%20Project%20Memo.pdf
+        link_text: Policy Memo
+        additional_links:
+          - title:  Slides
+            url: https://github.com/enowlis/enowlis.github.io/blob/main/projects/Wisconsin%20Solar%20Project%20Slides-compressed.pdf
+          - title:  Messaging
+            url: https://github.com/enowlis/enowlis.github.io/blob/main/projects/Wisconsin%20Solar%20Project%20Messaging.pdf
+        description: | # this will include new lines to allow paragraphs
+          Wrote and presented a policy proposal to Wisconsin Representative Amaad Rivera-Wagner focused on creating a state-wide group buy solar panel program that would be made appealing to rural communities through the use of agrivoltaics on Wisconsin family farms. Our proposal was selected as the winner of the class and we are actively working on turning this proposal into legislation.
       - layout: top-middle
         title: 2025 Scopeathon
         link: https://github.com/enowlis/enowlis.github.io/raw/refs/heads/main/projects/%E2%AD%90%20Survey%20Database%20(TO%20USE).xlsx
         link_text: Data Analysis Sheet (download)
         additional_links:
-          - title:  Survey for Students 
+          - title:  Survey for Students (download)
             url: https://github.com/enowlis/enowlis.github.io/raw/refs/heads/main/projects/BBW%20Student%20Survey%20(Rodeo%20and%20ABC).docx
         description: | # this will include new lines to allow paragraphs
           Worked with my client, <mark>Blackstone Bike Works</mark>, to improve how they collect data from students and staff after their in-school bike workshops. This included both developing a new suite of surveys for the various relevant actors and creating a data analysis pipeline. I created a system for them that would update automatically when they received new survey responses and created charts that could be manipulated to look at specific variables or time periods. 
+      - layout: top-middle
+        title: Alternatives to School Closures in Chicago Public Schools
+        link: https://github.com/enowlis/enowlis.github.io/blob/main/projects/Policy%20Memo.pdf
+        link_text: Policy Memo - Maximizing Efficiency in CPS Building Utilization
+        additional_links:
+          - title:  Narrative - What Are Schools For?
+            url: https://github.com/enowlis/enowlis.github.io/blob/main/projects/Narrative.pdf
+          - title:  Analytical Brief - Examining the Consequences of Reform in Chicago Public Schools
+            url: https://github.com/enowlis/enowlis.github.io/blob/main/projects/Analytical%20Brief.pdf
+        description: | # this will include new lines to allow paragraphs
+          Created a portfolio of writing focused on the impact of the legacy of school closures in Chicago Public Schools, taking into account the issues facing the distrit including a declining students population, underutilized schools, and budget constraints. As part of my research I completed multiple spatial analyses in GIS.
+      - layout: top-middle
+        title: Cook County's Criminal Justice Data Hackathon
+        link: https://github.com/enowlis/enowlis.github.io/blob/main/projects/Hackathon%20Project.R
+        link_text: Data Exploration and Preliminary Analyses
+        description: | # this will include new lines to allow paragraphs
+          Over the course of an afternoon I performed preliminary analyses to investigate the link between the length of time that someone is involved in the criminal justice system before they are referred to a diversion program and the success of that diversion program. I found a statistically signficant positive correlation between case length and diversion program success. 
 
   # - title: Experience # Title for the section
   #   layout: list # Type of content section (list/text)
